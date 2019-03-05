@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/rootLayout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CASH on TRASH"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="manage your Trash"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="226dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginStart="0dp"-->
+        <!--android:layout_marginTop="360dp"-->
+        <!--android:layout_marginEnd="0dp"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:orientation="vertical"-->
+        <!--android:weightSum="2">-->
+<!--</LinearLayout>-->
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="150dp"
+        android:layout_height="83dp"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="500dp"
+        android:background="@android:color/black"
+        android:text="SIGN IN"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="33dp"
+            android:text="REGISTER"
+            android:background="@android:color/black"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:layout_width="150dp"
+            android:layout_height="83dp" />
+
+
+
+</RelativeLayout>
